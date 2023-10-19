@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
 import "../assets/Css/About.css";
 
 import TJ from "../assets/Images/about/updatedTomJuliaCropped.jpg";
@@ -18,7 +18,6 @@ export default function About() {
         "
         >
           <p>
-            {" "}
             Intuitive Fitness was created because Tom wanted a wider reach to
             help more individuals, and understood that working within a
             traditional gym had its limits. Gyms were too crowded for clients to
@@ -36,7 +35,7 @@ export default function About() {
         </div>
       </div>
       <div className="aboutSectionTwo">
-        <h2>Meet The Trainers</h2>
+        <h2>Meet The Trainers!</h2>
         <img src={Tom} alt="Tom (Trainer/Owner)" />
         <h4>Tom Studzinski (Owner/Trainer)</h4>
         <div className="aboutSectionTwoText">
