@@ -35,7 +35,7 @@ export default function About() {
         </div>
       </div>
       <div className="aboutSectionTwo">
-        <h2>Meet The Trainers</h2>
+        <h2>MEET THE TRAINERS</h2>
         <img src={Tom} alt="Tom (Trainer/Owner)" />
         <h4>Tom Studzinski (Owner/Trainer)</h4>
         <div className="aboutSectionTwoText">
