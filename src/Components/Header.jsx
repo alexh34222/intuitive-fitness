@@ -11,11 +11,13 @@ export default function Header() {
         height="15px"
         width="200px"
       />
-        <div className="headerMenu">
+      <div className="headerMenu">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link> {/* Use the Link component to navigate to "/about" */}
-        <Link to="/services">Services</Link> {/* You should define routes for these as well */}
-        <Link to="/contact">Contact</Link> {/* You should define routes for these as well */}
+        <Link to="/about">About</Link>{" "}
+        <Link to="https://squareup.com/appointments/book/3h8i9uhnusje5i/1Z9SWQF9M4V90/services">
+          Services
+        </Link>{" "}
+        <Link to="/contact">Contact</Link>{" "}
       </div>
     </div>
   );

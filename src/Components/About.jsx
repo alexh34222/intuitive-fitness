@@ -4,6 +4,7 @@ import "../assets/Css/About.css";
 
 import TJ from "../assets/Images/about/updatedTomJuliaCropped.jpg";
 import Tom from "../assets/Images/about/Tom.webp";
+import Julia from "../assets/Images/about/Julia.webp";
 
 export default function About() {
   return (
@@ -37,7 +38,7 @@ export default function About() {
       <div className="aboutSectionTwo">
         <h2>MEET THE TRAINERS</h2>
         <img src={Tom} alt="Tom (Trainer/Owner)" />
-        <h4>Tom Studzinski (Owner/Trainer)</h4>
+        <h4>Tom Studzinski (Trainer/Owner)</h4>
         <div className="aboutSectionTwoText">
           <p>
             “Health and fitness have always been a huge part of my life. In
@@ -55,6 +56,26 @@ export default function About() {
             with success. I am very excited to continue my passion of helping
             others develop themselves and spread the power of health and
             fitness.” <b>- Tom Studzinski</b>
+          </p>
+        </div>
+      </div>
+      <div className="aboutSectionThree">
+        <h2>MEET THE ADMINISTRATION</h2>
+        <img src={Julia} alt="Tom (Trainer/Owner)" />
+        <h4>Julia Studzinski (Admin/Owner)</h4>
+        <div className="aboutSectionThreeText">
+          <p>
+            Julia has worked in business administration and office management
+            for 8 years and recently made the switch to join the Intuitive
+            Fitness team! Julia operates the technical components of Intuitive
+            Fitness, offers virtual assistance and does a little bit of
+            marketing. Julia is passionate about the mental health benefits of
+            exercise and is motivated by her strength journey as she continues
+            to crush her fitness goals. During her off time she enjoys hiking,
+            camping, skiing and puzzles. <br /> <br /> "I was eager to help Tom
+            with his decade-long passion of assisting others reach their fitness
+            goals and even more excited to work along side him."{" "}
+            <b>-Julia Studzinski</b>
           </p>
         </div>
       </div>
