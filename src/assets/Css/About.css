@@ -67,3 +67,44 @@ h2 {
   align-items: center;
   width: 50%;
 }
+
+/* IPHONE 13 PRO MAX */
+
+@media screen and (max-width: 430px) and (max-height: 740px) {
+  .aboutSectionOne img {
+    height: 250px;
+  }
+
+  .aboutSectionOneText {
+    width: 75%;
+  }
+
+  .aboutSectionTwo img {
+    height: 350px;
+  }
+
+  .aboutSectionTwoText {
+    width: 76%;
+  }
+
+  .aboutSectionThree img {
+    height: 350px;
+  }
+
+  .aboutSectionThreeText {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+}
+
+/* IPHONE 14 PRO */
+
+@media screen and (max-width: 430px) and (max-height: 740px) {
+  .aboutSectionOne img {
+    height: 230px;
+  }
+
+  .aboutSectionTwoText {
+    width: 79%;
+  }
+}

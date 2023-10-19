@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 
-import "../assets/Css/Contact.css"
+import "../assets/Css/Contact.css";
 
 export default function Contact() {
   return (
