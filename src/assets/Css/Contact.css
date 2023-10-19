@@ -1,27 +1,39 @@
 .contactSectionOne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactSectionOne h1 {
-    margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-
 .contactSectionOne a {
-    text-decoration: none;
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px 30px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    font-size: 20px;
-  }
-  
-  .contactSectionOne a:hover {
-    background-color: #71db77;
-  }
-  
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contactSectionOne a:hover {
+  background-color: #71db77;
+}
+
+.contactSectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinks {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 30px;
+}
