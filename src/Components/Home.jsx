@@ -3,6 +3,7 @@ import trainer from "../assets/Images/male-trainer.jpg";
 import virtualTrainer from "../assets/Images/online-personal-trainer.jpg";
 import laptop from "../assets/Images/laptop-illustration.jpg";
 import Header from "./Header";
+import Footer from "./Footer"
 
 import "../assets/Css/Home.css";
 
@@ -38,9 +39,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="footer">
-        <p>© 2023 Intuitive Fitness & © 2023 Alex Hall Coding</p>
-      </div>
+    <Footer />
     </div>
   );
 }
