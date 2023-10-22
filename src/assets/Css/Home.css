@@ -32,6 +32,31 @@
   text-align: center;
 }
 
+.homeImages {
+  display: flex;
+  flex-direction: column; /* Display images and descriptions in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.homeImages img {
+  width: auto; /* Allow the image to adjust its width as needed */
+  height: 500px; /* Ensure the image takes 100% height of its container */
+  object-fit: contain; /* Maintain aspect ratio, fitting within the container */
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: block;
+  background: transparent; /* You can adjust the arrow background */
+  color: #333; /* You can adjust the arrow color */
+  font-size: 24px; /* You can adjust the arrow font size */
+  opacity: 0.8; /* You can adjust the arrow opacity */
+}
+
+.carousel .thumbs-wrapper {
+  display: none; /* Hide the thumbs */
+}
+
 /* MOBILE PAGE */
 
 /* Media query for 430x740 */
