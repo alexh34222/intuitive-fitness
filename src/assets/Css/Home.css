@@ -89,27 +89,7 @@
     height: 310px;
   }
 
-  .header h1 {
-    /* Your styles for the .header h1 element in this viewport size */
-  }
-
-  .homeSectionOne img {
-    /* Your styles for the .homeSectionOne img element in this viewport size */
-  }
-
-  .homeSectionTwo {
-    /* Your styles for the .homeSectionTwo in this viewport size */
-  }
-
-  .homeSectionTwo img {
-    /* Your styles for the .homeSectionTwo img element in this viewport size */
-  }
-
-  .homeSectionTwo h3 {
-    /* Your styles for the .homeSectionTwo h3 element in this viewport size */
-  }
-
-  .footer {
-    /* Your styles for the .footer in this viewport size */
+  .homeImages {
+    width: 100%;
   }
 }
