@@ -117,16 +117,20 @@ export default function Home() {
           <img src={laptop} alt="laptop-illustration" />
         </div>
       </div>
-      <div className="homeImages">
-        <Carousel showArrows={true} showThumbs={false}>
-          {carouselImages.map((image, index) => (
-            <div key={index}>
-              <img src={image.src} alt={image.alt} />
-              <p className="legend">{image.description}</p>
-            </div>
-          ))}
-        </Carousel>
+      <div className="imagesContainer">
+        {" "}
+        <div className="homeImages">
+          <Carousel showArrows={true} showThumbs={false}>
+            {carouselImages.map((image, index) => (
+              <div key={index}>
+                <img src={image.src} alt={image.alt} />
+                <p className="legend">{image.description}</p>
+              </div>
+            ))}
+          </Carousel>
+        </div>
       </div>
+
       <Footer />
     </div>
   );

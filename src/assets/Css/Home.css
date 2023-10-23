@@ -32,11 +32,18 @@
   text-align: center;
 }
 
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .homeImages {
   display: flex;
   flex-direction: column; /* Display images and descriptions in a column */
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
+  margin-bottom: 60px;
+  width: 75%;
 }
 
 .homeImages img {
@@ -55,6 +62,17 @@
 
 .carousel .thumbs-wrapper {
   display: none; /* Hide the thumbs */
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: block;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the button background color as needed */
+  color: #fff; /* Adjust the button text color as needed */
 }
 
 /* MOBILE PAGE */
