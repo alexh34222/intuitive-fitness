@@ -7,7 +7,7 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <Router basename="/intuitive-fitness">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
