@@ -5,8 +5,28 @@
   align-items: center;
 }
 
-.testimonialsMainText {
+.testimonialsSectionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   width: 65%;
-  font-weight: bolder;
+}
+
+.testimonialsMainText {
+  text-align: center;
+}
+
+.testimonial {
+  border: 5px solid #71db77;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.testimonialsSectionTwo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 65%;
+  margin-bottom: 50px;
 }

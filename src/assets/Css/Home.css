@@ -66,15 +66,33 @@
   text-align: center;
 }
 
-/* Home.css */
+.homeSectionTwo a {
+  text-decoration: none;
+  color: #333; /* Link text color */
+}
+
+.containerOurServicesHome {
+  cursor: pointer;
+}
+
+.containerOurServicesHome:hover {
+  color: #71db77;
+}
+
 .containerAboutUsHome {
   cursor: pointer;
-  transition: background-color 0.3s; /* Add a smooth transition effect */
 }
 
 .containerAboutUsHome:hover {
   color: #71db77;
-  background-color: #333;
+}
+
+.containerReviewsHome {
+  cursor: pointer;
+}
+
+.containerReviewsHome:hover {
+  color: #71db77;
 }
 
 .imagesContainer {
