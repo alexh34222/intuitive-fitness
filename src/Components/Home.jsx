@@ -91,11 +91,18 @@ export default function Home() {
     <div className="Home">
       <Header />
       <div className="homeSectionOne">
-        <img
-          src={benchPress}
-          alt="stock image of a
-        bench-press bar and weights"
-        />
+        <div className="imageOverlay">
+          <img
+            src={benchPress}
+            alt="stock image of a bench-press bar and weights"
+          />
+          <div className="overlayText">
+            <p>
+              Exercise is intuitive because it taps into our innate human drive
+              to move and explore our physical capabilities
+            </p>
+          </div>
+        </div>
       </div>
       <div className="homeSectionTwo">
         <div className="containerOurServicesHome">
@@ -120,7 +127,12 @@ export default function Home() {
       <div className="imagesContainer">
         {" "}
         <div className="homeImages">
-          <Carousel showArrows={true} showThumbs={false}>
+          <Carousel
+            showArrows={true}
+            showThumbs={false}
+            showStatus={false}
+            infiniteLoop={true}
+          >
             {carouselImages.map((image, index) => (
               <div key={index}>
                 <img src={image.src} alt={image.alt} />

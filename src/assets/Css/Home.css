@@ -11,6 +11,25 @@
   height: auto;
 }
 
+/* Home.css */
+.imageOverlay {
+  position: relative;
+  display: inline-block;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%; /* Adjust as needed to position the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
 .homeSectionTwo {
   display: flex;
   flex-direction: row;
@@ -52,12 +71,23 @@
   object-fit: contain; /* Maintain aspect ratio, fitting within the container */
 }
 
+.carousel.carousel-slider {
+  display: flex;
+  align-items: center;
+}
+
+.carousel.ca {
+  font-size: 30px;
+}
+
 .carousel.carousel-slider .control-arrow {
   display: block;
   background: transparent; /* You can adjust the arrow background */
   color: #333; /* You can adjust the arrow color */
   font-size: 24px; /* You can adjust the arrow font size */
   opacity: 0.8; /* You can adjust the arrow opacity */
+  height: 50%;
+  margin-top: 150px;
 }
 
 .carousel .thumbs-wrapper {
