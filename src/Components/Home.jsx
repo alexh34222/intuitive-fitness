@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -105,24 +106,31 @@ export default function Home() {
         </div>
       </div>
       <div className="homeSectionTwo">
-        <div className="containerOurServicesHome">
-          <h3>Our Services</h3>
-          <img
-            src={trainer}
-            alt="illustration of male trainer with male client on exercise bike"
-          />
-        </div>
-        <div className="containerAboutUsHome">
-          <h3>About Us</h3>
-          <img
-            src={virtualTrainer}
-            alt="illustration of virtual personal training session"
-          />
-        </div>
-        <div className="containerReviewsHome">
-          <h3>Client Testimonials</h3>
-          <img src={laptop} alt="laptop-illustration" />
-        </div>
+        <Link to="/services">
+          <div className="containerOurServicesHome">
+            <h3>Our Services</h3>
+            <img
+              src={trainer}
+              alt="illustration of male trainer with male client on exercise bike"
+            />
+          </div>
+        </Link>
+        <Link to="/about">
+          {""}
+          <div className="containerAboutUsHome">
+            <h3>About Us</h3>
+            <img
+              src={virtualTrainer}
+              alt="illustration of virtual personal training session"
+            />
+          </div>
+        </Link>
+        <Link to="/clienttestimonials">
+          <div className="containerReviewsHome">
+            <h3>Client Testimonials</h3>
+            <img src={laptop} alt="laptop-illustration" />
+          </div>
+        </Link>
       </div>
       <div className="imagesContainer">
         {" "}

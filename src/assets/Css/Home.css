@@ -51,6 +51,17 @@
   text-align: center;
 }
 
+/* Home.css */
+.containerAboutUsHome {
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.containerAboutUsHome:hover {
+  color: #71db77;
+  background-color: #333;
+}
+
 .imagesContainer {
   display: flex;
   justify-content: center;

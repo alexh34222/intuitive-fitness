@@ -1,0 +1,13 @@
+
+.clientTestimonialsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsMainText {
+    text-align: center;
+    width: 65%;
+    font-weight: bolder;
+}

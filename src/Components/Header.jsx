@@ -14,7 +14,7 @@ export default function Header() {
       <div className="headerMenu">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>{" "}
-        <Link to="https://squareup.com/appointments/book/3h8i9uhnusje5i/1Z9SWQF9M4V90/services">
+        <Link to="/services">
           Services
         </Link>{" "}
         <Link to="/contact">Contact</Link>{" "}

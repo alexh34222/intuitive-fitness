@@ -8,7 +8,7 @@ import Julia from "../assets/Images/about/Julia.webp";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="top">
       <Header />
       <div className="aboutSectionOne">
         <h2>ABOUT INTUITIVE FITNESS</h2>
