@@ -104,6 +104,13 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="mobileText">
+          <p>
+            {" "}
+            Exercise is intuitive because it taps into our innate human drive to
+            move and explore our physical capabilities
+          </p>
+        </div>
       </div>
       <div className="homeSectionTwo">
         <Link to="/services">
