@@ -133,4 +133,8 @@
   .homeImages {
     width: 100%;
   }
+
+  .overlayText {
+    display: none;
+  }
 }
