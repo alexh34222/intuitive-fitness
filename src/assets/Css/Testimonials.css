@@ -19,6 +19,7 @@
 
 .testimonial {
   border: 5px solid #71db77;
+  border-radius: 120px;
   padding: 20px;
   margin-bottom: 10px;
 }
