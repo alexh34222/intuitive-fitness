@@ -12,8 +12,11 @@ export default function Contact() {
       <div className="contactSectionOne">
         <h1>CONTACT US</h1>
 
-        <h3>Email</h3>
-        <a href="mailto:tom@nwintuitivefit.com">tom@nwintuitivefit.com</a>
+        <h3>Email/Phone</h3>
+        <a href="mailto:tom@nwintuitivefit.com">
+          Email: tom@nwintuitivefit.com
+        </a>
+        <a href="tel:+12062957018">Call: (206)295-7018</a>
       </div>
       <div className="contactSectionTwo">
         <h3>Social Links</h3>
