@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       <Header />
       <div className="contactSectionOne">
-        <h1>CONTACT US</h1>
+        <h2>CONTACT US</h2>
 
         <h3>Email/Phone</h3>
         <a href="mailto:tom@nwintuitivefit.com">

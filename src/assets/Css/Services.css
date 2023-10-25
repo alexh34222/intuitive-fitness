@@ -1,0 +1,38 @@
+.headerImageServicesPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerImageServicesPage img {
+  max-width: 50%;
+  height: auto;
+}
+
+.servicesMessage {
+  width: 75%;
+}
+
+.servicesText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.servicesLinks {
+  margin-bottom: 40px;
+}
+
+.servicesLinks a {
+  text-decoration: none;
+  color: #000;
+}
+
+.servicesLinks a:hover {
+  color: #71db77;
+  cursor: pointer;
+
+}
