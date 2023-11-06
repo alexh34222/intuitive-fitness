@@ -113,7 +113,7 @@ export default function Testimonials() {
                 id={`testimonial-dialog-${index}`}
                 className="testimonial-dialog"
               >
-                <h3>{testimonial.title}</h3>
+                <h3 className="testimonial-modal-title">{testimonial.title}</h3>
                 <p>{testimonial.text}</p>
                 <button
                   onClick={() =>

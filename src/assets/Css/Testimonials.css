@@ -33,24 +33,30 @@
 }
 
 .testimonial-dialog {
-  width: 80%;
+  width: 50%;
+  background-color: rgb(202, 212, 202);
+}
+
+.testimonial-modal-title {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .close-button {
   position: absolute;
-  top: 10px; 
-  right: 10px; 
+  top: 10px;
+  right: 10px;
   padding: 10px;
   cursor: pointer;
-  background-color: white; 
-  border: 1px solid #000; 
-  border-radius: 4px; 
-  color: #000; 
-  font-weight: bold; 
-  text-decoration: none; 
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .close-button:hover {
-  background-color: #000; 
-  color: white; 
+  background-color: #000;
+  color: white;
 }
