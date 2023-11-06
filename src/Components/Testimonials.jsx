@@ -90,7 +90,8 @@ export default function Testimonials() {
               lives. <br />
               <br />
               Here are some clients who make Intuitive the empowering place it
-              is.
+              is. <br />
+              *click on a name to read their testimonial*
             </p>
           </div>
         </div>
