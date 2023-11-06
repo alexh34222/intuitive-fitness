@@ -35,12 +35,11 @@
 
 .headerMenu a {
   text-decoration: none;
-  color: #333; /* Link text color */
+  color: #333;
   font-size: 18px;
   font-weight: 500;
-  transition: color 0.3s; /* Smooth color transition on hover */
+  transition: color 0.3s;
 
-  /* Optional: Add an underline on hover */
   border-bottom: 2px solid transparent;
   padding-bottom: 5px;
 }
@@ -50,9 +49,7 @@
   border-color: #71db77;
 }
 
-/* Media query for 430x740 */
 @media screen and (max-width: 430px) and (max-height: 740px) {
-  /* Add your specific styles here */
   .header {
     width: auto;
     flex-direction: column;

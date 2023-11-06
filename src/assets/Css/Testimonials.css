@@ -73,4 +73,9 @@
   .testimonial-dialog {
     width: 100%;
   }
+
+  .close-button {
+    top: 5px;
+    right: 5px;
+  }
 }
