@@ -13,6 +13,10 @@ p {
   align-items: center;
 }
 
+.aboutSectionOne h2 {
+  text-decoration: underline;
+}
+
 .aboutSectionOne img {
   max-width: 100%;
   height: 300px;

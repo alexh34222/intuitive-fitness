@@ -29,14 +29,15 @@ export default function Services() {
             </p>
           </div>
           <div className="servicesLinks">
-            <a
-              href="https://squareup.com/appointments/book/3h8i9uhnusje5i/1Z9SWQF9M4V90/start"
-              target="_blank"
-            >
-              <h2>
-                Click here to view all of our services and to book a session
-              </h2>
-            </a>
+            <h2>
+              To view all of our services and to book a session{" "}
+              <a
+                href="https://squareup.com/appointments/book/3h8i9uhnusje5i/1Z9SWQF9M4V90/start"
+                target="_blank"
+              >
+                CLICK HERE
+              </a>
+            </h2>
           </div>
         </div>
       </div>

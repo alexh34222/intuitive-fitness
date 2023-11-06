@@ -12,12 +12,8 @@ export default function Header() {
         width="200px"
       />
       <div className="headerMenu">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>{" "}
-        <Link to="/services">
-          Services
-        </Link>{" "}
-        <Link to="/contact">Contact</Link>{" "}
+        <Link to="/">Home</Link> <Link to="/services">Services</Link>{" "}
+        <Link to="/about">About</Link> < Link to="/testimonials">Reviews</Link> <Link to="/contact">Contact</Link>{" "}
       </div>
     </div>
   );

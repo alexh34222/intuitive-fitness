@@ -9,6 +9,10 @@
   margin-bottom: 50px;
 }
 
+.contactSectionOne h2 {
+  text-decoration: underline;
+}
+
 .contactSectionOne a {
   text-decoration: none;
   background-color: #007bff;
@@ -36,4 +40,8 @@
 
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.socialLinks img {
+  height: 80px;
 }

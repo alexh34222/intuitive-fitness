@@ -108,7 +108,10 @@ export default function Testimonials() {
               >
                 {testimonial.title}
               </div>
-              <dialog id={`testimonial-dialog-${index}`}>
+              <dialog
+                id={`testimonial-dialog-${index}`}
+                className="testimonial-dialog"
+              >
                 <h3>{testimonial.title}</h3>
                 <p>{testimonial.text}</p>
                 <button
@@ -117,8 +120,9 @@ export default function Testimonials() {
                       .getElementById(`testimonial-dialog-${index}`)
                       .close()
                   }
+                  className="close-button"
                 >
-                  Close
+                  X
                 </button>
               </dialog>
             </div>

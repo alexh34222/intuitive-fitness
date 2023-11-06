@@ -132,12 +132,15 @@ export default function Home() {
             />
           </div>
         </Link>
-        <Link to="/clienttestimonials">
+        <Link to="/testimonials">
           <div className="containerReviewsHome">
             <h3>Client Testimonials</h3>
             <img src={laptop} alt="laptop-illustration" />
           </div>
         </Link>
+      </div>
+      <div className="imagesOurStudioText">
+        <h2>Our Studio</h2>
       </div>
       <div className="imagesContainer">
         {" "}

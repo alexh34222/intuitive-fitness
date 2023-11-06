@@ -95,8 +95,14 @@
   color: #71db77;
 }
 
+.imagesOurStudioText {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .imagesContainer {
   display: flex;
+
   justify-content: center;
 }
 
@@ -106,7 +112,7 @@
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
   margin-bottom: 60px;
-  width: 75%;
+  width: 50%;
 }
 
 .homeImages img {
@@ -130,8 +136,8 @@
   color: #333; /* You can adjust the arrow color */
   font-size: 24px; /* You can adjust the arrow font size */
   opacity: 0.8; /* You can adjust the arrow opacity */
-  height: 50%;
-  margin-top: 150px;
+  height: 30%;
+  margin-top: 200px;
 }
 
 .carousel .thumbs-wrapper {
